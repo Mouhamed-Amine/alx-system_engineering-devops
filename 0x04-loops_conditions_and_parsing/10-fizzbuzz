@@ -1,21 +1,18 @@
-
 #!/usr/bin/env bash
 # displays Best School 10 times.
 
-COUNTER=1
-while [ $COUNTER -lt 101 ]
+for num in {1..100}
 do
-    if [ $((COUNTER%15)) = 0 ]
+    if  (( num % 3 == 0 && num % 5 == 0 ))
     then
         echo "FizzBuzz"
-    elif [ $((COUNTER%3)) = 0 ]
+    elif (( num % 3 == 0 ))
     then
         echo "Fizz"
-    elif [ $((COUNTER%5)) = 0 ]
+    elif (( num % 5 == 0 ))
     then
         echo "Buzz"
     else
-        echo "$COUNTER"
+        echo "$num"
     fi
-    let (( COUNTER++ ))
 done
