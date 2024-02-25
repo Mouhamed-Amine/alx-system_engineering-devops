@@ -2,8 +2,9 @@
 # displays Best School 10 times.
 
 x=0
+
 while [ $x -lt 10 ]
 do
     echo "Best School"
-    let x=x+1
+    (( x++  ))
 done
