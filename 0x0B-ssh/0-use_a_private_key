@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Connect to your remotly server using private key
+ssh -i ~/.ssh/school ubuntu@100.26.233.106	
