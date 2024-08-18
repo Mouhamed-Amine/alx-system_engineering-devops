@@ -1,4 +1,4 @@
-	./post-mortem.jpg
+	post-mortem.jpg
 
 Issue Summary
 After Delivering a scrapping script to one of my clients,A day after, i started recieving on my inbox 2 emails telling me that the " scrapping code didn't work " and i was confused since i described the following prepartion plan before execution.
