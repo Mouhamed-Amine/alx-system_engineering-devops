@@ -1,4 +1,4 @@
-![./0x19-postmortem/post-mortem.jpg]
+![PostMortem](./0x19-postmortem/post-mortem.jpg)
 Issue Summary
 After Delivering a scrapping script to one of my clients,A day after, i started recieving on my inbox 2 emails telling me that the " scrapping code didn't work " and i was confused since i described the following prepartion plan before execution.
 Then the client pointed not on code running but something in his environement that was ruined by him but he just wanted me to take it off by refering to my code as a bug. I clone the code again and checked the problems he is having and tried to renew the script to automate and update dependencies that is missing in his computer.
